@@ -39,6 +39,8 @@ table {
 }
 
 .container {
+	display: flex;
+    justify-content: center;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 3%;
@@ -138,20 +140,16 @@ table {
 	font-size: 40px;
 }
 .page-builder {
-	font-size: 16px;
+	font-size: 20px;
 }
 
+.blocks-gallery-item {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 
 .split-sidebar {
 	display: flex;
 }
-.split-sidebar .column-main {
-	width: 70%;
-}
-.split-sidebar .column-sidebar {
-	width: 30%;
-}
-
 
 .widgettitle {
 	font-size: 20px;

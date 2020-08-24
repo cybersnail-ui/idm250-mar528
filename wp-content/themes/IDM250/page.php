@@ -4,7 +4,7 @@
     <div class="container split-sidebar">
         <!-- Main Content -->
         <div class="column column-main">
-          <h1 class="post_title"><?php the_title(); ?></h1>
+          <!-- <h1 class="post_title"><?php the_title(); ?></h1> -->
           <?php the_post_thumbnail(); ?>
           <div class="page-builder">
             <?php the_content(); ?>
