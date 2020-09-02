@@ -12,12 +12,12 @@ get_header();?>
     <div class="fp__content">
         <div class="fp__gallery">
             <div class="fp__column fp__first">
-                <img src="/wp-content/themes/IDM250/dist/images/image-1.png">
-                <img src="/wp-content/themes/IDM250/dist/images/image-2.png">
+                <img src="wp-content/themes/IDM250/dist/images/image-1.png">
+                <img src="wp-content/themes/IDM250/dist/images/image-2.png">
             </div>
             <div class="fp__column fp__second">
-                <img src="/wp-content/themes/IDM250/dist/images/image-3.png">
-                <img src="/wp-content/themes/IDM250/dist/images/image-4.png">
+                <img src="wp-content/themes/IDM250/dist/images/image-3.png">
+                <img src="wp-content/themes/IDM250/dist/images/image-4.png">
             </div>
         </div>
         <div class="fp__text">
@@ -33,12 +33,12 @@ get_header();?>
         </div>
         <div class="fp__gallery">
             <div class="fp__column fp__first">
-                <img src="/wp-content/themes/IDM250/dist/images/image-1.png">
-                <img src="/wp-content/themes/IDM250/dist/images/image-2.png">
+                <img src="wp-content/themes/IDM250/dist/images/image-1.png">
+                <img src="wp-content/themes/IDM250/dist/images/image-2.png">
             </div>
             <div class="fp__column fp__second">
-                <img src="/wp-content/themes/IDM250/dist/images/image-3.png">
-                <img src="/wp-content/themes/IDM250/dist/images/image-4.png">
+                <img src="wp-content/themes/IDM250/dist/images/image-3.png">
+                <img src="wp-content/themes/IDM250/dist/images/image-4.png">
             </div>
         </div>
     </div>
@@ -46,7 +46,7 @@ get_header();?>
     <div class="fp__content fp__footer__bg">
         <div class="fp__gallery fp__gallery__icon">
             <div class="fp__column fp__column__icon">
-                <img src="/wp-content/themes/IDM250/dist/images/image-5.jpg">
+                <img src="wp-content/themes/IDM250/dist/images/image-5.jpg">
             </div>
         </div>
         <div class="fp__text fp__text__footer">
