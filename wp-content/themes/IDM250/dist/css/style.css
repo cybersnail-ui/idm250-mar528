@@ -370,3 +370,43 @@ body {
     height: 58rem;
     transform: rotate(-15deg);
 }
+
+.hide {
+	opacity: 0;
+}
+
+.fourofour-container {
+    position: absolute;
+	top: 635px;
+	transform: rotate(-15deg);
+}
+
+.fourofour-container h1 {
+	font-family: 'Archivo', sans-serif;
+	font-weight: 800;
+	font-size: 40px;
+	color: #343434;
+	margin: 0;
+	text-align: left;
+}
+
+.fourofour-container h2 {
+	font-family: 'Archivo', sans-serif;
+	font-weight: 800;
+	font-size: 80px;
+	color: #343434;
+	padding-bottom: 1rem;
+	margin: 0;
+}
+
+.fourofour-container p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #343434;
+	margin: 0;
+}
+
+.fourofour-container a {
+	color: #343434;
+}
