@@ -23,9 +23,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -132,13 +129,112 @@ table {
 }
 .page-builder {
 	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
 }
 .page-builder * + * {
 	margin-top: 10px;
 }
-.page-builder h2 {
-	font-size: 40px;
+
+.column-main {
+	width: 100%;
 }
+
+.small-image {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+table {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	border-collapse: collapse;
+	width: 100%;
+}
+  
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+  
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.blocks-gallery-item__caption {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px !important;
+}
+
+blockquote {
+	font-weight: 800;
+	font-style: italic;
+	width: 50%;
+    margin: 1rem auto;
+}
+
+ol, ul {
+	text-align: left;
+	padding: 0 3rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.page-builder p {
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin: 1rem 0;
+	text-indent: 3rem;
+}
+
+.page-builder h1 {
+	font-family: 'Archivo', sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+	color: #343434;
+	text-align: left;
+}
+.page-builder h2 {
+	font-family: 'Archivo', sans-serif;
+	font-size: 30px;
+	color: #343434;
+	text-align: left;
+}
+.page-builder h3 {
+	font-family: 'Archivo', sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+	color: #343434;
+	text-align: left;
+}
+.page-builder h4 {
+	font-family: 'Archivo', sans-serif;
+	font-size: 20px;
+	color: #343434;
+	text-align: left;
+}
+.page-builder h5 {
+	font-family: 'Archivo', sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	color: #343434;
+	text-align: left;
+}
+.page-builder h6 {
+	font-family: 'Archivo', sans-serif;
+	font-size: 16px;
+	color: #343434;
+	text-align: left;
+}
+
+
 .page-builder {
 	font-size: 20px;
 }
